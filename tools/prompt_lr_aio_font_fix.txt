@@ -1,0 +1,42 @@
+EDIT THIS IMAGE — Font replacement only. Everything else stays EXACTLY as-is.
+
+The attached image is a cannabis product box render that is 95% perfect. The ONLY problem: two text elements use the wrong fonts. Fix ONLY those fonts. Do NOT change the box angle, lighting, shadows, background, badge, compliance icons, or any other element.
+
+CHANGE #1 — "fresh frozen" (front face, white text above "LIVE RESIN"):
+- CURRENT: italic/script-style font (WRONG)
+- REPLACE WITH: a clean, geometric, sans-serif font — bold weight, all lowercase
+- Visual reference: think of fonts like DM Sans Bold, Outfit Bold, or Inter Bold — perfectly upright, NO italic slant, NO cursive, NO script. Clean rounded terminals, uniform stroke width. Modern and minimal.
+- Color: white
+- Size: same as current
+- Position: same as current, centered on the box face
+
+CHANGE #2 — "LIVE RESIN" (front face, yellow text below "fresh frozen"):
+- CURRENT: generic bold sans-serif (WRONG — too wide)
+- REPLACE WITH: an ultra-condensed, ultra-narrow all-caps display font
+- Visual reference: think of Bebas Neue or Oswald — the key characteristic is that each letter is DRAMATICALLY TALL AND NARROW, roughly 3x taller than wide. Very tight letter spacing. Uniform stroke width. No serifs. Sharp clean corners. The kind of font you see on movie posters or ESPN graphics.
+- Color: yellow (#FDDA00)
+- Size: same height as current, but the letters should be noticeably NARROWER — this is the defining characteristic
+- Position: same as current, centered on the box face
+
+CHANGE #3 — Left spine "fresh frozen" (vertical white text):
+- Same font fix as Change #1 — replace with clean geometric sans-serif bold, NOT italic/script
+- Keep it rotated 90° as currently positioned on the spine
+
+CHANGE #4 — Left spine "LIVE RESIN" (vertical white text):
+- Same font fix as Change #2 — replace with ultra-condensed narrow display font
+- Keep it rotated 90° as currently positioned on the spine
+
+DO NOT CHANGE:
+- "PABLO" graffiti logo (it's correct)
+- Holographic "SOUR DIESEL" badge (it's correct)
+- "Pablo authentic product" subtitle (it's correct)
+- THC warning triangle, 21+ badge, NY State icon (they're correct)
+- "RECHARGEABLE ALL-IN-ONE" text (it's correct)
+- "NET WT." text (it's correct)
+- Warning text at bottom (it's correct)
+- Box angle, perspective, lighting, shadow, white background
+- Any colors, positions, or sizes beyond the four text elements listed above
+
+The two replacement fonts must feel like they belong on premium cannabis packaging — clean, modern, confident. The narrow condensed font for "LIVE RESIN" is the signature move — it should look dramatically tall and compressed, not like a regular bold sans-serif.
+
+OUTPUT: Same dimensions, same quality, PNG. Only the four text elements should differ from the input image.

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PABLO — Wholesale</title>
+  <meta name="description" content="Carry Pablo at your dispensary. Wholesale inquiries for licensed New York retailers.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=20260416">
+  <meta name="theme-color" content="#0047BB">
+  <link rel="stylesheet" href="styles.css?v=20260416">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="site" class="site">
+
+    <!-- NAV -->
+    <nav class="nav">
+      <a href="index.html" class="nav__logo"><img src="assets/images/pablo-logo.svg" alt="PABLO" class="nav__logo-img"></a>
+      <div class="nav__links">
+        <div class="nav__dropdown">
+          <a href="live-resin.html">Live Resin</a>
+          <div class="nav__dropdown-menu">
+            <a href="live-resin.html#lineup">Runtz</a>
+            <a href="live-resin.html#lineup">Sour Diesel</a>
+            <a href="live-resin.html#lineup">Terp-Aid</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <a href="flavors.html">Flavors</a>
+          <div class="nav__dropdown-menu">
+            <a href="flavors.html#menu">All 7 Flavors</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <a class="nav__link--active">Contact</a>
+          <div class="nav__dropdown-menu">
+            <a href="contact-consumer.html">Consumer</a>
+            <a href="contact-wholesale.html">Wholesale</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <a href="experience.html">Experience</a>
+          <div class="nav__dropdown-menu">
+            <a href="experience.html#hardware">All Glass</a>
+            <a href="experience.html#field">All Gas</a>
+          </div>
+        </div>
+      </div>
+      <button class="nav__menu" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="live-resin.html">Live Resin</a>
+      <a href="flavors.html">Flavors</a>
+      <a href="contact-consumer.html" onclick="toggleMenu()">Consumer Contact</a>
+      <a href="contact-wholesale.html" onclick="toggleMenu()">Wholesale Contact</a>
+      <a href="experience.html">Experience</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" style="min-height:auto; padding-top:8rem; padding-bottom:4rem;">
+      <div class="hero__content">
+        <p class="hero__label">Wholesale</p>
+        <h1 class="hero__headline">
+          Carry <span class="text--yellow">Pablo.</span>
+        </h1>
+        <p class="hero__sub">Premium cannabis for your shelves. Licensed NY dispensaries only.</p>
+      </div>
+      <div class="hero__image" style="display:flex; align-items:center; justify-content:center;">
+        <img src="assets/images/brandbook_p18_img1_1978x1283.jpeg?v=20260416" alt="Pablo Products" style="max-height:50vh; width:auto; max-width:100%; object-fit:contain; border-radius:4px;">
+      </div>
+    </section>
+
+    <!-- THE OFFER -->
+    <section class="section section--dark">
+      <div class="section__grid">
+        <div class="section__col">
+          <p class="section__label">The Lineup</p>
+          <h2 class="section__heading">Two Lines. <span class="text--yellow">23</span> SKUs.</h2>
+          <p class="section__body">
+            <strong>Fresh Frozen Live Resin</strong> — AIO vapes, 510 carts, and concentrates.
+            Pure, nothing added, for the heads who know.<br><br>
+            <strong>Flavors</strong> — Seven flavor-forward, high-potency SKUs in AIO and 510.
+            The volume play. Gummies coming soon.
+          </p>
+        </div>
+        <div class="section__col">
+          <p class="section__label">Why Pablo</p>
+          <h2 class="section__heading">Your <span class="text--yellow">Edge.</span></h2>
+          <p class="section__body">
+            Competitive wholesale pricing with strong retailer margins.
+            All-glass hardware your customers will come back for.
+            Shelf-ready packaging with real brand identity — not another white-label.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--blue">
+      <div class="section__grid">
+        <div class="section__col">
+          <p class="section__label">Get Started</p>
+          <h2 class="section__heading">Let's <span class="text--yellow">Talk.</span></h2>
+          <p class="section__body">
+            Reach out for pricing, line sheets, and samples.
+            We work with licensed dispensaries across New York.
+          </p>
+          <a href="mailto:wholesale@buypablo.com" class="btn btn--yellow" style="margin-top:1.5rem;">wholesale@buypablo.com</a>
+        </div>
+        <div class="section__col section__col--center">
+          <img src="assets/images/brandbook_p13_img1_2017x2111.jpeg?v=20260416" alt="Pablo Product Lineup" class="section__img">
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">PABLO</span>
+          <p class="footer__tagline">Fresh Frozen Cannabis</p>
+        </div>
+        <div class="footer__links">
+          <a href="live-resin.html">Live Resin</a>
+          <a href="flavors.html">Flavors</a>
+          <a href="contact-consumer.html">Consumer</a>
+          <a href="contact-wholesale.html">Wholesale</a>
+        </div>
+        <div class="footer__legal">
+          <p>For use only by persons 21 years of age and older.</p>
+          <p>PABLO &middot; New York, NY</p>
+          <p>&copy; 2026 PABLO. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobile-menu').classList.toggle('mobile-menu--open');
+      document.querySelector('.nav__menu').classList.toggle('nav__menu--open');
+    }
+
+    // Nav scroll background
+    const nav = document.querySelector('.nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.section__heading, .section__label, .section__body, .section__img, .section__col--center img, .fade-up').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+PABLO AIO FLAVORS — SUNDAE GRAPES — NY OCM Compliant Packaging
+
+Transform the base product image into NY-compliant FLAVORS line packaging.
+
+LAYOUT (vertical label):
+- Background: Pablo Blue (#0047BB) — full bleed to all edges
+- Product image (AIO vape with yellow cartridge): center-left, keep original detail
+- Left spine: "FLAVORS" in white, vertical orientation
+
+TOP SECTION (center, stacked):
+- "PABLO" logo — white, hand-brushed graffiti-style script, ~2" wide, upper-center
+- Body text: "FLAVOR FORWARD, HIGH POTENCY CANNABIS CONCENTRATE" (white, 10pt, sans-serif)
+- Dashed divider (white)
+- "FLAVORS" (yellow #FDDA00, bold, 18pt)
+- Dashed divider (white)
+
+FLAVOR BADGE (rectangular, rounded corners):
+- Background fill: Sundae Grapes purple #81288E
+- Left ~30% of badge: Illustration of purple grape cluster — semi-realistic, stylized, premium CPG packaging aesthetic (reference: Olipop, Liquid Death). NOT cartoon, NOT clipart.
+- Right portion: "SUNDAE GRAPES" in white, bold, 14pt (two lines stacked)
+- Below name: "INDICA HYBRID" in white, 8pt
+- NOTE: Use "SUNDAE" with -AE spelling, plural "GRAPES"
+
+COMPLIANCE STRIP (below badge, purple #81288E background extending full width):
+Three regulatory badges horizontally centered:
+1. THC warning triangle — yellow fill #FDDA00, black border, black cannabis leaf, "THC!" text in black
+2. 21+ badge — red circle, white border, "21+" in black
+3. NY State outline — black fill, white border, "NEW YORK STATE" text in white
+Spacing: 0.25" between badges. Size: ~0.65" each.
+
+RECHARGEABLE CAPSULE (below compliance strip, on Pablo Blue background):
+- Shape: rectangle, slightly rounded corners (~6px radius)
+- Fill: Pablo Blue #0047BB
+- Border: 1.5pt white stroke
+- Inside, two lines white text centered:
+  - "RECHARGEABLE ALL-IN-ONE" (bold, 9pt)
+  - "NET WT. 1G (0.0353 OZ)" (regular, 8pt)
+
+WARNING TEXT (below capsule, directly on Pablo Blue — NO box, NO border):
+- "THIS PRODUCT CONTAINS CANNABIS AND THC. KEEP OUT OF REACH OF CHILDREN AND PETS. FOR USE ONLY BY PERSONS 21 YEARS OF AGE AND OLDER."
+- White text, 7pt, justified, generous margins
+
+OCM LICENSE SEAL:
+- Lower-left spine, circular, white border, "E 3" inside, 0.5" diameter
+
+OUTPUT: 300 DPI PNG, flat color design, no gradients, no shadows, color accuracy critical (all hex codes exact).
