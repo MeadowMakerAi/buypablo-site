@@ -388,9 +388,9 @@ a {
   justify-content: center;
   animation: heroImageIn 1.4s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
   overflow: hidden;
-  background: var(--off-white);
-  border-radius: 8px;
-  padding: 1rem;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
 }
 
 .hero__image .flavor-rotator {
@@ -546,7 +546,7 @@ a {
 }
 
 .product-card {
-  background: var(--off-white);
+  background: var(--white);
   border-radius: 2px;
   overflow: hidden;
   transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1), opacity 1s ease, box-shadow 0.4s ease;
@@ -938,7 +938,7 @@ a {
 
 .product-card__img {
   overflow: hidden;
-  background: var(--white);
+  background: transparent;
   position: relative;
 }
 
@@ -958,7 +958,6 @@ a {
   max-height: 500px;
   object-fit: contain;
   object-position: center center;
-  mix-blend-mode: multiply;
 }
 
 /* ── Placeholder Images ── */
