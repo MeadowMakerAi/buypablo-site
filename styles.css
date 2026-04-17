@@ -891,7 +891,6 @@ a {
   object-fit: contain;
   object-position: center center;
   opacity: 0;
-  transition: opacity 0.6s ease;
 }
 
 .flavor-rotator__img.active {
