@@ -1,7 +1,62 @@
 """
-PABLO Brand Config — single source of truth for colors, flavors, compliance text.
+PABLO Brand Config — single source of truth for colors, flavors, compliance text, typography.
 All asset pipeline tools import from here.
 """
+import os
+
+# --- Font Paths ---
+_FONT_BASE = os.path.join(os.path.dirname(__file__), "..", "fonts")
+FONT_DIR_BRAND = os.path.join(_FONT_BASE, "brand")
+FONT_DIR_PACKAGING = os.path.join(_FONT_BASE, "packaging")
+FONT_DIR_REFERENCE = os.path.join(_FONT_BASE, "reference")
+
+FONTS = {
+    "space_grotesk_bold": {
+        "path": os.path.join(FONT_DIR_BRAND, "SpaceGrotesk-Bold.ttf"),
+        "role": "primary_brand",
+        "usage": "Headlines, body, UI — primary Pablo identity font",
+    },
+    "bebas_neue": {
+        "path": os.path.join(FONT_DIR_BRAND, "BebasNeue-Regular.ttf"),
+        "role": "secondary_brand",
+        "usage": "Display, accent text, packaging headers",
+    },
+    "cubano_sharp": {
+        "path": None,  # NOT YET SOURCED — needs .otf/.ttf file
+        "role": "product_line",
+        "usage": "LIVE RESIN product line text only (bold rounded display)",
+    },
+    "helvetica_neue_bd_cn": {
+        "path": os.path.join(FONT_DIR_PACKAGING, "HelveticaNeueLTStd-BdCn.otf"),
+        "role": "packaging_production",
+        "usage": "Packaging body copy (bold condensed) — print files",
+    },
+    "helvetica_neue_cn": {
+        "path": os.path.join(FONT_DIR_PACKAGING, "HelveticaNeueLTStd-Cn.otf"),
+        "role": "packaging_production",
+        "usage": "Packaging body copy (condensed) — print files",
+    },
+    "poligraxxiv": {
+        "path": os.path.join(FONT_DIR_PACKAGING, "POLIGRAXXIV-930587474.otf"),
+        "role": "packaging_display",
+        "usage": "Packaging display text — from designer files",
+    },
+    "raskolnikov": {
+        "path": os.path.join(FONT_DIR_PACKAGING, "RaskolnikovRegular-9225049.otf"),
+        "role": "packaging_display",
+        "usage": "Packaging display text — from designer files",
+    },
+    "trench_rounded_bold": {
+        "path": os.path.join(FONT_DIR_PACKAGING, "TrenchRoundedBold-5406884.otf"),
+        "role": "packaging_display",
+        "usage": "Packaging display text — from designer files",
+    },
+}
+
+# Convenience accessors for pipeline tools
+FONT_BEBAS = FONTS["bebas_neue"]["path"]
+FONT_SPACE_GROTESK = FONTS["space_grotesk_bold"]["path"]
+FONT_REFERENCE_IMG = os.path.join(FONT_DIR_REFERENCE, "font_reference_live_resin.png")
 
 # --- Brand Colors ---
 PABLO_BLUE = "#0047BB"       # PMS 2728C

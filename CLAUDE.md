@@ -49,6 +49,13 @@ Four CLI tools in `tools/`, sharing constants from `tools/brand_config.py`:
 Workflow: prompts (1) → Gemini (manual) → post-process (4). Badges (2) and stickers (3) are independent.
 All output lands in `output/{prompts,badges,stickers,processed}`.
 
+## Design System
+Always read DESIGN.md before making any visual or UI decisions.
+All font choices, colors, spacing, animation curves, and border radius are defined there.
+Do not deviate without explicit user approval.
+In QA mode, flag any code that doesn't match DESIGN.md.
+Key rules: Bebas Neue is the default font (not Space Grotesk). Buttons are square (0px radius). The signature easing is cubic-bezier(0.16, 1, 0.3, 1).
+
 ## Session Start
 
 1. Read this file
@@ -56,3 +63,4 @@ All output lands in `output/{prompts,badges,stickers,processed}`.
 3. Load only the reference files relevant to today's task
 4. If touching brand assets → `brand_config.py` is the single source of truth for colors, flavors, compliance text
 5. If touching Supabase → check supabase-bridge SKILL.md
+6. If touching UI/styles → read DESIGN.md first
