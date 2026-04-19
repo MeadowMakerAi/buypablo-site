@@ -208,7 +208,11 @@ a {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 4px;
+  padding: 10px;
+  min-width: 44px;
+  min-height: 44px;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__menu span {
@@ -834,7 +838,7 @@ a {
 }
 
 .flavor-band__type {
-  font-size: clamp(0.6rem, 1vw, 0.8rem);
+  font-size: clamp(0.75rem, 1vw, 0.8rem);
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: 700;
@@ -1044,7 +1048,7 @@ a {
 
 .footer__legal p {
   font-family: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   line-height: 1.8;
   letter-spacing: 0.05em;
   opacity: 0.35;
@@ -1052,6 +1056,14 @@ a {
 
 /* ── Responsive ── */
 @media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+
+  .nav__menu {
+    display: flex;
+  }
+
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1066,14 +1078,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  .nav__links {
-    display: none;
-  }
-
-  .nav__menu {
-    display: flex;
-  }
-
   .nav {
     padding: 1rem 1.5rem;
   }
@@ -1112,6 +1116,11 @@ a {
     margin-right: auto;
   }
 
+  .product-card__img .flavor-rotator {
+    aspect-ratio: 1 / 2;
+    max-height: 350px;
+  }
+
   .features-strip {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
@@ -1131,6 +1140,13 @@ a {
 
   .footer__legal {
     text-align: center;
+  }
+
+  .footer__links a {
+    padding: 0.5rem 0.25rem;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
   }
 }
 
@@ -1185,5 +1201,36 @@ a {
 
   .product-card__name {
     font-size: 1.3rem;
+  }
+
+  .product-card__features li {
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+  }
+
+  .footer__tagline {
+    font-size: 0.85rem;
+  }
+
+  .flavor-band__type {
+    font-size: 0.75rem;
+  }
+
+  .age-gate__buttons .btn {
+    min-height: 48px;
+    min-width: 100px;
+  }
+}
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .marquee__track {
+    animation: none;
   }
 }
