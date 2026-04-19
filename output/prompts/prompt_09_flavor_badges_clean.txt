@@ -1,0 +1,54 @@
+ASSET #9: Flavor badges (clean)
+TARGET: flavors.html 'All Seven Flavors' section
+============================================================
+
+Gemini Image Generation Prompt — PABLO Seven Flavors Badge Strip
+
+Generate a clean, horizontal graphic showing all seven PABLO flavor badges arranged in a row on a white background.
+
+THIS IS A GRAPHIC/BADGE DESIGN — not a product photo. Think of it as a flavor menu strip.
+
+LAYOUT:
+- 7 badges arranged horizontally in a single row with equal spacing
+- Each badge is a horizontal rounded-rectangle (pill shape)
+- All badges are the same size
+- White background
+- Slight drop shadow on each badge for depth
+
+BADGE DESIGN (same shape for all, different colors):
+
+1. PINEAPPLE MARKER — background: #EE3680 (pink)
+2. SUNDAY GRAPE — background: #81288E (purple)
+3. TERP TAXI — background: #FDAA00 (yellow/gold)
+4. WATERMELON GUSHER — background: #E80029 (red)
+5. MARMALADE — background: #FCA311 (orange)
+6. MANGONADA — background: #FDB829 (golden yellow)
+7. PIE FACE — background: #189849 (green)
+
+EACH BADGE CONTAINS:
+- Flavor name in BOLD WHITE ALL-CAPS text, centered
+- Subtle crosshatch or texture pattern on the background (very subtle, not busy)
+- That's it — no emoji, no fruit illustrations, no icons, no trademark symbols
+
+TEXT RULES:
+- Font: clean, bold sans-serif (like Bebas Neue or similar)
+- All caps
+- White text on colored background
+- NO emojis of any kind — compliance concern (kid-appeal rules)
+- NO trademark ™ symbols — trademarks were never filed
+
+RENDERING STYLE:
+- Clean white or transparent background
+- Soft, even studio lighting — no harsh shadows
+- Slight drop shadow beneath for depth
+- Product centered in frame with breathing room on all sides
+- Photorealistic product photography style
+- Image should work as a product card on a website (roughly square aspect ratio)
+
+ASPECT RATIO: Wide horizontal (approximately 7:1 or 6:1) — this spans the full width of a web page.
+
+CRITICAL:
+- This must be CLEAN — no sloppy edges, no black borders, no artifacts
+- Each badge color must be distinct and vibrant
+- The seven colors together should create a rainbow-like visual impact
+- This is a key brand asset — the flavor lineup is a selling point

@@ -1,0 +1,45 @@
+ASSET #4: Live Resin hero image
+TARGET: live-resin.html hero
+============================================================
+
+Gemini Image Generation Prompt — PABLO Live Resin Page Hero
+
+Generate a photorealistic hero image showing a PABLO Live Resin All-In-One vape box as the centerpiece, with a mylar bag partially visible behind it, on a clean white background.
+
+COMPOSITION:
+- Primary product (foreground, center-right): PABLO Live Resin All-In-One box, standing upright at slight angle
+- Secondary product (background, left): PABLO Live Resin 510 mylar bag, partially obscured, adding depth
+
+PRIMARY PRODUCT — AIO BOX:
+- Small rectangular box, ~144mm × 48.5mm × 18mm
+- Deep royal blue (#0047BB)
+- PABLO logo — large, white, hand-brushed/graffiti-style script logo. The logo is distinctive with a flowing, street-art quality. It should be prominent and clearly readable.
+- "LIVE RESIN" in bold white/yellow text
+- "ALL-IN-ONE" below
+- Holographic strain badge
+- NY Universal Symbol and warning block at bottom
+- Spot UV gloss on logo
+
+SECONDARY PRODUCT — 510 BAG:
+- Standing behind the box, offset to the left
+- Same Pablo blue, visible PABLO logo
+- "LIVE RESIN" text visible
+- Partially cut off by the frame — this is background context, not the hero
+
+RENDERING STYLE:
+- Clean white background
+- Soft studio lighting from upper left, creating natural shadows
+- Slight drop shadow beneath the product for 3D depth and realism
+- The product should appear to be sitting on a surface, not floating
+- Photorealistic — should look like a professional product photograph
+- The overall impression should be premium, clean, adult-oriented
+- Deep blue packaging with white and yellow brand elements
+
+ASPECT RATIO: Wide landscape (approximately 21:9 or 2:1) for hero banner placement.
+Products should occupy the right 60% of the frame, with clean white space on the left for text overlay.
+
+IMPORTANT:
+- This should feel like a premium product launch image
+- No cannabis imagery except the small NY Universal Symbol
+- The two products together communicate "multiple formats available"
+- Both products are deep royal blue with white/yellow text — maintain brand consistency

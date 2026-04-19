@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PABLO — Flavors</title>
+  <meta name="description" content="Flavor-forward, high-potency cannabis concentrate. Seven flavors crafted with cannabis terpenes. AIO vape and 510 cartridge.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=20260416">
+  <meta property="og:title" content="PABLO — Flavors">
+  <meta property="og:description" content="Flavor-forward, high-potency cannabis concentrate. Seven flavors crafted with cannabis terpenes.">
+  <meta property="og:image" content="https://buypablo.com/assets/images/pablo-logo-white-on-blue.png?v=20260416">
+  <meta name="theme-color" content="#0047BB">
+  <link rel="stylesheet" href="styles.css?v=20260416">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="site" class="site">
+
+    <!-- NAV -->
+    <nav class="nav">
+      <a href="index.html" class="nav__logo"><img src="assets/images/pablo-logo.svg" alt="PABLO" class="nav__logo-img"></a>
+      <div class="nav__links">
+        <div class="nav__dropdown">
+          <a href="live-resin.html">Live Resin</a>
+          <div class="nav__dropdown-menu">
+            <a href="live-resin.html#strains">Sour Diesel</a>
+            <a href="live-resin.html#strains">Runtz</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <a href="flavors.html" class="nav__link--active">Flavors</a>
+          <div class="nav__dropdown-menu">
+            <a href="#menu">All 7 Flavors</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <a>Contact</a>
+          <div class="nav__dropdown-menu">
+            <a href="contact-consumer.html">Consumer</a>
+            <a href="contact-wholesale.html">Wholesale</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <a href="experience.html">Experience</a>
+        </div>
+      </div>
+      <button class="nav__menu" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="live-resin.html" onclick="toggleMenu()">Live Resin</a>
+      <a href="flavors.html" onclick="toggleMenu()">Flavors</a>
+      <a href="contact-consumer.html" onclick="toggleMenu()">Consumer Contact</a>
+      <a href="contact-wholesale.html" onclick="toggleMenu()">Wholesale Contact</a>
+      <a href="experience.html" onclick="toggleMenu()">Experience</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__content">
+        <p class="hero__label">Pablo Flavors</p>
+        <h1 class="hero__headline">
+          Seven <span class="text--yellow">Flavors.</span><br>
+          One Mission.
+        </h1>
+        <p class="hero__sub">Flavor-forward. High-potency. Crafted with cannabis terpenes.</p>
+        <a href="#menu" class="btn btn--yellow" style="margin-top:2rem;">See All Flavors</a>
+      </div>
+      <div class="hero__image">
+        <div class="flavor-rotator flavor-rotator--hero">
+          <img src="assets/images/pablo_aio_pineapple_marker_ny.jpeg?v=20260416" alt="Pablo Flavors — Pineapple Marker" class="flavor-rotator__img active">
+          <img src="assets/images/pablo_aio_terp_taxi_ny.jpeg?v=20260416" alt="Pablo Flavors — Terp Taxi" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_sundae_grapes_ny.jpeg?v=20260416" alt="Pablo Flavors — Sundae Grapes" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_mangonada_ny.jpeg?v=20260416" alt="Pablo Flavors — Mangonada" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_marmalade_ny.jpeg?v=20260416" alt="Pablo Flavors — Marmalade" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_pie_face_ny.jpeg?v=20260416" alt="Pablo Flavors — Pie Face" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_watermelon_gusher_ny.jpeg?v=20260416" alt="Pablo Flavors — Watermelon Gusher" class="flavor-rotator__img">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee marquee--flavors">
+      <div class="marquee__track">
+        <span style="color:#EA698C">Pineapple Marker</span>
+        <span style="color:#6E3FA3">Sunday Grape</span>
+        <span style="color:var(--blue)">Terp Taxi</span>
+        <span style="color:#FC4C02">Mangonada</span>
+        <span style="color:#FCA311">Marmalade</span>
+        <span style="color:#EE2737">Pie Face</span>
+        <span style="color:#00855A">Watermelon Gusher</span>
+        <span style="color:#EA698C">Pineapple Marker</span>
+        <span style="color:#6E3FA3">Sunday Grape</span>
+        <span style="color:var(--blue)">Terp Taxi</span>
+        <span style="color:#FC4C02">Mangonada</span>
+        <span style="color:#FCA311">Marmalade</span>
+        <span style="color:#EE2737">Pie Face</span>
+        <span style="color:#00855A">Watermelon Gusher</span>
+      </div>
+    </div>
+
+    <!-- THE APPROACH -->
+    <section class="section section--blue">
+      <div class="section__grid">
+        <div class="section__col">
+          <p class="section__label">The Approach</p>
+          <h2 class="section__heading">Flavor-Forward. <span class="text--yellow">High-Potency.</span></h2>
+          <p class="section__body">
+            Pablo Flavors starts with premium cannabis concentrate and layers in
+            cannabis-derived terpenes for depth and natural botanical flavors to
+            steer each profile. Bold, consistent flavor with serious potency.
+          </p>
+        </div>
+        <div class="section__col section__col--center">
+          <img src="assets/images/pablo_aio_sundae_grapes_ny.jpeg?v=20260416" alt="Pablo Flavors — Sundae Grapes" class="section__img" style="max-width:300px;">
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section section--white">
+      <p class="section__label section__label--blue">The Lineup</p>
+      <h2 class="section__heading section__heading--blue">Two Formats. <span class="text--yellow">Seven</span> Flavors.</h2>
+
+      <div class="products-grid products-grid--two" style="max-width:900px;">
+
+        <div class="product-card">
+          <div class="product-card__img">
+            <div class="flavor-rotator" data-speed="2200">
+              <img src="assets/images/pablo_aio_pineapple_marker_ny.jpeg?v=20260416" alt="Flavors AIO — Pineapple Marker" class="flavor-rotator__img active">
+              <img src="assets/images/pablo_aio_terp_taxi_ny.jpeg?v=20260416" alt="Flavors AIO — Terp Taxi" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_sundae_grapes_ny.jpeg?v=20260416" alt="Flavors AIO — Sundae Grapes" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_mangonada_ny.jpeg?v=20260416" alt="Flavors AIO — Mangonada" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_marmalade_ny.jpeg?v=20260416" alt="Flavors AIO — Marmalade" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_pie_face_ny.jpeg?v=20260416" alt="Flavors AIO — Pie Face" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_watermelon_gusher_ny.jpeg?v=20260416" alt="Flavors AIO — Watermelon Gusher" class="flavor-rotator__img">
+
+            </div>
+          </div>
+          <h3 class="product-card__name">Flavors AIO Vape</h3>
+          <p class="product-card__desc">All-glass TerpSafe tank. Rechargeable USB-C all-in-one.</p>
+          <ul class="product-card__features">
+            <li>0.85g &middot; High-Potency Concentrate</li>
+            <li>Cannabis Terpenes</li>
+            <li>No-Clog, Never-Fail</li>
+          </ul>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__img">
+            <div class="flavor-rotator" data-speed="2400">
+              <img src="assets/images/pablo_510_pineapple_marker_ny.jpeg?v=20260416" alt="Flavors 510 — Pineapple Marker" class="flavor-rotator__img active">
+              <img src="assets/images/pablo_510_sunday_grapes_ny.jpeg?v=20260416" alt="Flavors 510 — Sundae Grapes" class="flavor-rotator__img">
+              <img src="assets/images/pablo_510_terp_taxi_ny.jpeg?v=20260416" alt="Flavors 510 — Terp Taxi" class="flavor-rotator__img">
+              <img src="assets/images/pablo_510_mangonada_ny.jpeg?v=20260416" alt="Flavors 510 — Mangonada" class="flavor-rotator__img">
+              <img src="assets/images/pablo_510_marmalade_ny.jpeg?v=20260416" alt="Flavors 510 — Marmalade" class="flavor-rotator__img">
+              <img src="assets/images/pablo_510_pie_face_ny.jpeg?v=20260416" alt="Flavors 510 — Pie Face" class="flavor-rotator__img">
+              <img src="assets/images/pablo_510_watermelon_gusher_ny.jpeg?v=20260416" alt="Flavors 510 — Watermelon Gusher" class="flavor-rotator__img">
+            </div>
+          </div>
+          <h3 class="product-card__name">Flavors 510 Cart</h3>
+          <p class="product-card__desc">All-glass TerpSafe cartridge. Universal 510 thread.</p>
+          <ul class="product-card__features">
+            <li>1.0g &middot; High-Potency Concentrate</li>
+            <li>Cannabis Terpenes</li>
+            <li>All-Glass Construction</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FLAVOR MENU -->
+    <section id="menu" class="section section--dark" style="padding-bottom:2rem;">
+      <div style="text-align:center; margin-bottom:2rem;">
+        <p class="section__label">The Menu</p>
+        <h2 class="section__heading">All Seven <span class="text--yellow">Flavors.</span></h2>
+      </div>
+      <div class="flavors-stack">
+        <div class="flavor-band flavor-band--pineapple-marker">
+          <span class="flavor-band__name">Pineapple Marker</span>
+          <span class="flavor-band__type">Sativa Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--sunday-grape">
+          <span class="flavor-band__name">Sunday Grape</span>
+          <span class="flavor-band__type">Indica Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--terp-taxi">
+          <span class="flavor-band__name">Terp Taxi</span>
+          <span class="flavor-band__type">Sativa</span>
+        </div>
+        <div class="flavor-band flavor-band--mangonada">
+          <span class="flavor-band__name">Mangonada</span>
+          <span class="flavor-band__type">Sativa Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--marmalade">
+          <span class="flavor-band__name">Marmalade</span>
+          <span class="flavor-band__type">Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--pie-face">
+          <span class="flavor-band__name">Pie Face</span>
+          <span class="flavor-band__type">Indica Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--watermelon-gusher">
+          <span class="flavor-band__name">Watermelon Gusher</span>
+          <span class="flavor-band__type">Indica</span>
+        </div>
+      </div>
+      <p style="text-align:center; margin-top:1.5rem; font-family:'Space Grotesk',sans-serif; font-size:0.75rem; letter-spacing:0.15em; text-transform:uppercase; opacity:0.35;">Cannabis Terpenes &middot; Third Party Lab Tested</p>
+    </section>
+
+    <!-- COMING SOON -->
+    <section class="section section--blue" style="text-align:center;">
+      <p class="section__label">Coming Soon</p>
+      <h2 class="section__heading">Flavors <span class="text--yellow">Gummies.</span></h2>
+      <p class="section__body" style="margin:0 auto; text-align:center; max-width:500px;">Same flavor-forward approach in edible form. Stay tuned.</p>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--yellow" style="text-align:center;">
+      <h2 class="section__heading" style="color:var(--blue);">Want the Fresh Frozen <span style="color:var(--white);">Experience?</span></h2>
+      <p class="section__body" style="margin:0 auto 2rem; text-align:center; max-width:500px; color:var(--blue);">Try Pablo Live Resin — pure fresh frozen flower, carefully extracted.</p>
+      <a href="live-resin.html" class="btn" style="background:var(--blue); color:var(--white);">Explore Live Resin</a>
+    </section>
+
+    <!-- FIND PABLO -->
+    <section class="section section--dark" style="text-align:center;">
+      <p class="section__label">Get In Touch</p>
+      <h2 class="section__heading">Find <span class="text--yellow">Pablo</span></h2>
+      <p class="section__body" style="margin:0 auto 2rem; text-align:center; max-width:460px;">
+        Available at select licensed dispensaries across New York.
+      </p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="contact-consumer.html" class="btn btn--yellow">I'm a Consumer</a>
+        <a href="contact-wholesale.html" class="btn btn--outline">I'm a Retailer</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">PABLO</span>
+          <p class="footer__tagline">Fresh Frozen Cannabis</p>
+        </div>
+        <div class="footer__links">
+          <a href="live-resin.html">Live Resin</a>
+          <a href="flavors.html">Flavors</a>
+          <a href="contact-consumer.html">Consumer</a>
+          <a href="contact-wholesale.html">Wholesale</a>
+        </div>
+        <div class="footer__legal">
+          <p>For use only by persons 21 years of age and older.</p>
+          <p>PABLO &middot; New York, NY</p>
+          <p>&copy; 2026 PABLO. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobile-menu').classList.toggle('mobile-menu--open');
+      document.querySelector('.nav__menu').classList.toggle('nav__menu--open');
+    }
+
+    const nav = document.querySelector('.nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    document.querySelectorAll('.flavor-rotator').forEach(rotator => {
+      const imgs = rotator.querySelectorAll('.flavor-rotator__img');
+      if (imgs.length < 2) return;
+      let current = 0;
+      function advance() {
+        imgs[current].classList.remove('active');
+        current = (current + 1) % imgs.length;
+        imgs[current].classList.add('active');
+      }
+      const isHero = rotator.classList.contains('flavor-rotator--hero');
+      if (isHero) {
+        const delays = [150, 180, 220, 280, 360, 480, 650, 900, 1200, 1600, 2000, 2400, 2800, 3200];
+        let step = 0;
+        function spin() {
+          advance();
+          const d = step < delays.length ? delays[step] : 3500;
+          step++;
+          if (step <= delays.length) setTimeout(spin, d);
+          else setInterval(advance, 3500);
+        }
+        setTimeout(spin, 800);
+      } else {
+        setInterval(advance, parseInt(rotator.dataset.speed) || 2000);
+      }
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          entry.target.querySelectorAll('.flavor-band').forEach(b => b.classList.add('visible'));
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -5% 0px' });
+
+    const animTargets = document.querySelectorAll(
+      '.product-card, .flavors-stack, .section__heading, .section__label, .section__body, .section__img, .section__col--center img, .features-strip .feature, .fade-up'
+    );
+    animTargets.forEach(el => {
+      el.classList.add('will-animate');
+      observer.observe(el);
+    });
+    setTimeout(() => { animTargets.forEach(el => el.classList.add('visible')); }, 2000);
+  </script>
+
+</body>
+</html>

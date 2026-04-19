@@ -1,0 +1,46 @@
+ASSET #7: Flavors 2-format images (AIO, 510)
+TARGET: flavors.html product cards
+============================================================
+
+Gemini Image Generation Prompt — PABLO Flavors Individual Product Cards (2 images)
+
+Generate TWO separate photorealistic product renders, each on a clean white background. These are for product cards on the Flavors page.
+
+--- IMAGE 1: FLAVORS ALL-IN-ONE ---
+
+Product: PABLO Flavors All-In-One vape box — Pineapple Marker
+- Small rectangular box standing upright, ~144mm × 48.5mm × 18mm
+- Deep royal blue (#0047BB), matte with spot UV on logo
+- Accent color band: pink (#EE3680)
+- PABLO logo — large, white, hand-brushed/graffiti-style script logo. The logo is distinctive with a flowing, street-art quality. It should be prominent and clearly readable.
+- "FLAVORS" + "ALL-IN-ONE" in white/yellow text
+- Strain badge: "PINEAPPLE MARKER" on pink background, text only — NO fruit
+- "SATIVA HYBRID" classification tag
+- NY Universal Symbol and compliance at bottom
+- Show at very slight angle for dimension
+
+--- IMAGE 2: FLAVORS 510 CARTRIDGE ---
+
+Product: PABLO Flavors 510 Cartridge mylar bag — Pineapple Marker
+- Standing upright, 76mm × 210mm
+- Deep royal blue matte mylar
+- Accent color band: pink (#EE3680)
+- Hang hole at top, zip-lock visible
+- PABLO logo — large, white, hand-brushed/graffiti-style script logo. The logo is distinctive with a flowing, street-art quality. It should be prominent and clearly readable.
+- "FLAVORS" + "510 CARTRIDGE" in white/yellow text
+- Strain badge: "PINEAPPLE MARKER" on pink background, text only
+- NY Universal Symbol at bottom
+
+RENDERING STYLE:
+- Clean white or transparent background
+- Soft, even studio lighting — no harsh shadows
+- Slight drop shadow beneath for depth
+- Product centered in frame with breathing room on all sides
+- Photorealistic product photography style
+- Image should work as a product card on a website (roughly square aspect ratio)
+
+CRITICAL:
+- Both products must match in style, lighting, scale, and framing
+- The accent color band is what differentiates Flavors from Live Resin — make it clearly visible
+- NO fruit illustrations — compliance concern
+- These sit side by side on the website

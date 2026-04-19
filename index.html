@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PABLO — Fresh Frozen Cannabis</title>
+  <meta name="description" content="Pablo uses a fresh-frozen extraction process that captures cannabis at its peak freshness. Premium cannabis for the New York adult-use market.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=20260416">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PABLO — Fresh Frozen Cannabis">
+  <meta property="og:description" content="Fresh frozen extraction. True-to-plant flavor. Premium cannabis for the New York adult-use market.">
+  <meta property="og:image" content="https://buypablo.com/assets/images/pablo-logo-white-on-blue.png?v=20260416">
+  <meta property="og:url" content="https://buypablo.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PABLO — Fresh Frozen Cannabis">
+  <meta name="twitter:description" content="Fresh frozen extraction. True-to-plant flavor. Premium cannabis for New York.">
+  <meta name="twitter:image" content="https://buypablo.com/assets/images/pablo-logo-white-on-blue.png?v=20260416">
+  <meta name="theme-color" content="#0047BB">
+  <link rel="stylesheet" href="styles.css?v=20260416">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- AGE GATE -->
+  <div id="age-gate" class="age-gate">
+    <div class="age-gate__inner">
+      <img src="assets/images/pablo-logo.svg" alt="PABLO" class="age-gate__logo-img">
+      <p class="age-gate__text">Are you 21 or older?</p>
+      <div class="age-gate__buttons">
+        <button class="btn btn--yellow" onclick="enterSite()">Yes</button>
+        <button class="btn btn--outline" onclick="exitSite()">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SITE WRAPPER -->
+  <div id="site" class="site" style="display:none;">
+
+    <!-- NAV -->
+    <nav class="nav">
+      <a href="#" class="nav__logo"><img src="assets/images/pablo-logo.svg" alt="PABLO" class="nav__logo-img"></a>
+      <div class="nav__links">
+        <div class="nav__dropdown">
+          <a href="live-resin.html">Live Resin</a>
+          <div class="nav__dropdown-menu">
+            <a href="live-resin.html#lineup">Runtz</a>
+            <a href="live-resin.html#lineup">Sour Diesel</a>
+            <a href="live-resin.html#lineup">Terp-Aid</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <a href="flavors.html">Flavors</a>
+          <div class="nav__dropdown-menu">
+            <a href="flavors.html#menu">All 7 Flavors</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <a>Contact</a>
+          <div class="nav__dropdown-menu">
+            <a href="contact-consumer.html">Consumer</a>
+            <a href="contact-wholesale.html">Wholesale</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <a href="experience.html">Experience</a>
+          <div class="nav__dropdown-menu">
+            <a href="experience.html#hardware">All Glass</a>
+            <a href="experience.html#field">All Gas</a>
+          </div>
+        </div>
+      </div>
+      <button class="nav__menu" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="live-resin.html">Live Resin</a>
+      <a href="flavors.html">Flavors</a>
+      <a href="contact-consumer.html">Consumer Contact</a>
+      <a href="contact-wholesale.html">Wholesale Contact</a>
+      <a href="experience.html">Experience</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero__headline">
+          We <span class="text--yellow">Froze</span> the Field<br>
+          and Put It in<br>
+          Your Pocket.
+        </h1>
+        <p class="hero__sub">Fresh frozen cannabis. True-to-plant flavor. New York.</p>
+        <a href="#products" class="btn btn--yellow">Explore Products</a>
+      </div>
+      <div class="hero__image">
+        <div class="flavor-rotator flavor-rotator--hero">
+          <img src="assets/images/pablo_aio_pineapple_marker_ny.jpeg?v=20260416" alt="Pablo Flavors AIO — Pineapple Marker" class="flavor-rotator__img active">
+          <img src="assets/images/pablo_aio_terp_taxi_ny.jpeg?v=20260416" alt="Pablo Flavors AIO — Terp Taxi" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_sundae_grapes_ny.jpeg?v=20260416" alt="Pablo Flavors AIO — Sundae Grapes" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_mangonada_ny.jpeg?v=20260416" alt="Pablo Flavors AIO — Mangonada" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_marmalade_ny.jpeg?v=20260416" alt="Pablo Flavors AIO — Marmalade" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_pie_face_ny.jpeg?v=20260416" alt="Pablo Flavors AIO — Pie Face" class="flavor-rotator__img">
+          <img src="assets/images/pablo_aio_watermelon_gusher_ny.jpeg?v=20260416" alt="Pablo Flavors AIO — Watermelon Gusher" class="flavor-rotator__img">
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+      <div class="marquee__track">
+        <span>All Glass. All Gas.</span>
+        <span>Fresh Frozen</span>
+        <span>7 Flavors</span>
+        <span>True-to-Plant</span>
+        <span>All Glass. All Gas.</span>
+        <span>Fresh Frozen</span>
+        <span>7 Flavors</span>
+        <span>True-to-Plant</span>
+      </div>
+    </div>
+
+    <!-- THE DIFFERENCE -->
+    <section id="process" class="section section--blue">
+      <div class="section__grid">
+        <div class="section__col">
+          <p class="section__label">The Process</p>
+          <h2 class="section__heading">The Pablo <span class="text--yellow">Difference</span></h2>
+          <p class="section__body">
+            Pablo uses a fresh-frozen extraction process that captures cannabis
+            at its peak freshness — locking in richer aromas, bolder flavors, and
+            more potent effects. By flash freezing whole cannabis plants immediately
+            after harvest, we deliver an authentic, true-to-plant experience that
+            raises the bar on premium cannabis.
+          </p>
+        </div>
+        <div class="section__col section__col--center">
+          <img src="assets/images/brandbook_p13_img1_2017x2111.jpeg?v=20260416" alt="Pablo Product Lineup" class="section__img section__img--large">
+        </div>
+      </div>
+    </section>
+
+    <!-- TWO LINES -->
+    <section id="products" class="section section--white">
+      <div class="products-grid products-grid--two" style="max-width:1000px;">
+
+        <a href="live-resin.html" class="product-card product-card--link">
+          <div class="product-card__img">
+            <div class="flavor-rotator" data-speed="2800">
+              <img src="assets/images/pablo_510_live_resin_sour_diesel_ny.jpeg?v=20260416" alt="Pablo Live Resin — Sour Diesel" class="flavor-rotator__img active">
+              <img src="assets/images/pablo_510_live_resin_sour_diesel_ny.jpeg?v=20260416" alt="Pablo Live Resin — Sour Diesel 510" class="flavor-rotator__img">
+            </div>
+          </div>
+          <h3 class="product-card__name">Fresh Frozen Live Resin</h3>
+          <p class="product-card__desc">Fresh frozen whole plants. Nothing added, nothing removed. AIO vapes, 510 carts, and concentrates.</p>
+          <p class="product-card__cta">Explore Live Resin &rarr;</p>
+        </a>
+
+        <a href="flavors.html" class="product-card product-card--link">
+          <div class="product-card__img">
+            <div class="flavor-rotator" data-speed="2200">
+
+              <img src="assets/images/pablo_aio_pineapple_marker_ny.jpeg?v=20260416" alt="Pablo Flavors — Pineapple Marker" class="flavor-rotator__img active">
+              <img src="assets/images/pablo_aio_sundae_grapes_ny.jpeg?v=20260416" alt="Pablo Flavors — Sundae Grapes" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_terp_taxi_ny.jpeg?v=20260416" alt="Pablo Flavors — Terp Taxi" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_mangonada_ny.jpeg?v=20260416" alt="Pablo Flavors — Mangonada" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_marmalade_ny.jpeg?v=20260416" alt="Pablo Flavors — Marmalade" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_pie_face_ny.jpeg?v=20260416" alt="Pablo Flavors — Pie Face" class="flavor-rotator__img">
+              <img src="assets/images/pablo_aio_watermelon_gusher_ny.jpeg?v=20260416" alt="Pablo Flavors — Watermelon Gusher" class="flavor-rotator__img">
+            </div>
+          </div>
+          <h3 class="product-card__name">Pablo Flavors</h3>
+          <p class="product-card__desc">Flavor-forward, high-potency cannabis concentrate. Seven flavors crafted with cannabis terpenes.</p>
+          <p class="product-card__cta">Explore Flavors &rarr;</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- FLAVOR BANDS PREVIEW -->
+    <section class="section section--dark" style="padding-bottom:2rem;">
+      <div style="text-align:center; margin-bottom:2rem;">
+        <p class="section__label">The Menu</p>
+        <h2 class="section__heading">Seven <span class="text--yellow">Flavors.</span></h2>
+      </div>
+      <div class="flavors-stack">
+        <div class="flavor-band flavor-band--pineapple-marker">
+          <span class="flavor-band__name">Pineapple Marker</span>
+          <span class="flavor-band__type">Sativa Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--sunday-grape">
+          <span class="flavor-band__name">Sunday Grape</span>
+          <span class="flavor-band__type">Indica Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--terp-taxi">
+          <span class="flavor-band__name">Terp Taxi</span>
+          <span class="flavor-band__type">Sativa</span>
+        </div>
+        <div class="flavor-band flavor-band--mangonada">
+          <span class="flavor-band__name">Mangonada</span>
+          <span class="flavor-band__type">Sativa Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--marmalade">
+          <span class="flavor-band__name">Marmalade</span>
+          <span class="flavor-band__type">Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--pie-face">
+          <span class="flavor-band__name">Pie Face</span>
+          <span class="flavor-band__type">Indica Hybrid</span>
+        </div>
+        <div class="flavor-band flavor-band--watermelon-gusher">
+          <span class="flavor-band__name">Watermelon Gusher</span>
+          <span class="flavor-band__type">Indica</span>
+        </div>
+      </div>
+      <p style="text-align:center; margin-top:2rem; margin-bottom:1rem;"><a href="flavors.html" class="btn btn--yellow">Explore All Flavors</a></p>
+    </section>
+
+    <!-- COMING SOON -->
+    <section class="section section--blue" style="text-align:center;">
+      <p class="section__label">Coming Soon</p>
+      <h2 class="section__heading">Prerolls. Gummies. <span class="text--yellow">More.</span></h2>
+      <p class="section__body" style="margin:0 auto; text-align:center; max-width:500px;">New formats dropping soon. Same quality. Stay tuned.</p>
+    </section>
+
+    <!-- FEATURES STRIP -->
+    <section class="section section--yellow">
+      <div class="features-strip">
+        <div class="feature">
+          <h3>TerpSafe</h3>
+          <p>All-glass tank preserves every terpene</p>
+        </div>
+        <div class="feature">
+          <h3>Fresh Frozen</h3>
+          <p>Flash frozen at harvest for peak potency</p>
+        </div>
+        <div class="feature">
+          <h3>Lab Tested</h3>
+          <p>Third party tested for quality, purity &amp; safety</p>
+        </div>
+        <div class="feature">
+          <h3>No Clog</h3>
+          <p>Never-fail hardware, every time</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section class="section section--blue">
+      <div class="section__grid">
+        <div class="section__col">
+          <p class="section__label">Get In Touch</p>
+          <h2 class="section__heading">Find <span class="text--yellow">Pablo</span></h2>
+          <p class="section__body" style="margin-bottom:2rem;">Available at select licensed dispensaries across New York.</p>
+          <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+            <a href="contact-consumer.html" class="btn btn--yellow">I'm a Consumer</a>
+            <a href="contact-wholesale.html" class="btn btn--outline">I'm a Retailer</a>
+          </div>
+        </div>
+        <div class="section__col section__col--center">
+          <img src="assets/images/pablo-dispensary-interior.jpeg?v=20260416" alt="Pablo Authentic Dispensary — retail display with Live Resin and Flavors" class="section__img" style="border-radius:8px;">
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">PABLO</span>
+          <p class="footer__tagline">Fresh Frozen Cannabis</p>
+        </div>
+        <div class="footer__links">
+          <a href="live-resin.html">Live Resin</a>
+          <a href="flavors.html">Flavors</a>
+          <a href="contact-consumer.html">Consumer</a>
+          <a href="contact-wholesale.html">Wholesale</a>
+        </div>
+        <div class="footer__legal">
+          <p>For use only by persons 21 years of age and older.</p>
+          <p>PABLO &middot; New York, NY</p>
+          <p>&copy; 2026 PABLO. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    function enterSite() {
+      document.getElementById('age-gate').style.display = 'none';
+      document.getElementById('site').style.display = 'block';
+      // Staggered reveal after age gate — content appears section by section
+      if (window._animTargets) {
+        window._animTargets.forEach((el, i) => {
+          setTimeout(() => el.classList.add('visible'), 100 + i * 80);
+        });
+        // Also reveal flavor bands (children of .flavors-stack)
+        document.querySelectorAll('.flavor-band').forEach((band, i) => {
+          setTimeout(() => band.classList.add('visible'), 600 + i * 100);
+        });
+      }
+    }
+    function exitSite() {
+      window.location.href = 'https://google.com';
+    }
+    function toggleMenu() {
+      document.getElementById('mobile-menu').classList.toggle('mobile-menu--open');
+      document.querySelector('.nav__menu').classList.toggle('nav__menu--open');
+    }
+    // Nav scroll background
+    const nav = document.querySelector('.nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Flavor image rotation
+    // Hero: spins fast then settles into rhythm
+    // Product cards: steady rotation with slight offsets
+    document.querySelectorAll('.flavor-rotator').forEach(rotator => {
+      const imgs = rotator.querySelectorAll('.flavor-rotator__img');
+      if (imgs.length < 2) return;
+      let current = 0;
+      const isHero = rotator.classList.contains('flavor-rotator--hero');
+
+      function advance() {
+        imgs[current].classList.remove('active');
+        current = (current + 1) % imgs.length;
+        imgs[current].classList.add('active');
+      }
+
+      if (isHero) {
+        // Fast spin that decelerates into a slow rhythm
+        const delays = [150, 180, 220, 280, 360, 480, 650, 900, 1200, 1600, 2000, 2400, 2800, 3200];
+        let step = 0;
+        function heroSpin() {
+          advance();
+          const delay = step < delays.length ? delays[step] : 3500;
+          step++;
+          if (step <= delays.length) {
+            setTimeout(heroSpin, delay);
+          } else {
+            // Settled — now cruise at steady rhythm with a pause-breathe pattern
+            setInterval(() => {
+              advance();
+            }, 3500);
+          }
+        }
+        setTimeout(heroSpin, 800); // slight delay after page load
+      } else {
+        // Product cards: steady rotation
+        const speed = parseInt(rotator.dataset.speed) || 2000;
+        setInterval(advance, speed);
+      }
+    });
+
+    // Scroll-triggered animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          // For container elements, also trigger children (flavor bands start
+          // at translateX(-100%) so their own bounding rects never intersect)
+          entry.target.querySelectorAll('.flavor-band').forEach(band => {
+            band.classList.add('visible');
+          });
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -5% 0px' });
+
+    window._animTargets = document.querySelectorAll(
+      '.product-card, .flavors-stack, .section__heading, .section__label, .section__body, .section__img, .section__col--center img, .features-strip .feature, .fade-up'
+    );
+    window._animTargets.forEach(el => {
+      el.classList.add('will-animate');
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>

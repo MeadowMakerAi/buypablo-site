@@ -1,0 +1,55 @@
+ASSET #6: Live Resin 3-format images (AIO, 510, Concentrate)
+TARGET: live-resin.html product cards
+============================================================
+
+Gemini Image Generation Prompt — PABLO Live Resin Individual Product Cards (3 images)
+
+Generate THREE separate photorealistic product renders, each on a clean white background. These are for individual product cards on a website — they need to be consistently sized and styled.
+
+--- IMAGE 1: ALL-IN-ONE VAPE ---
+
+Product: PABLO Live Resin All-In-One vape box
+- Small rectangular box standing upright, ~144mm × 48.5mm × 18mm
+- Deep royal blue (#0047BB), matte with spot UV on logo
+- PABLO logo — large, white, hand-brushed/graffiti-style script logo. The logo is distinctive with a flowing, street-art quality. It should be prominent and clearly readable.
+- "LIVE RESIN" + "ALL-IN-ONE" in white/yellow text
+- Holographic strain badge
+- NY Universal Symbol and compliance elements at bottom
+- Show at very slight angle (5-10 degrees) for dimension
+
+--- IMAGE 2: 510 CARTRIDGE ---
+
+Product: PABLO Live Resin 510 Cartridge mylar bag
+- Standing upright, 76mm × 210mm
+- Deep royal blue matte mylar
+- Hang hole at top, zip-lock visible
+- PABLO logo — large, white, hand-brushed/graffiti-style script logo. The logo is distinctive with a flowing, street-art quality. It should be prominent and clearly readable.
+- "LIVE RESIN" + "510 CARTRIDGE" in white/yellow text
+- Holographic strain badge
+- NY Universal Symbol at bottom
+
+--- IMAGE 3: CONCENTRATE ---
+
+Product: PABLO Live Resin Concentrate jar box
+- Small square-ish box for a 1g glass jar
+- Deep royal blue, same brand treatment
+- PABLO logo — large, white, hand-brushed/graffiti-style script logo. The logo is distinctive with a flowing, street-art quality. It should be prominent and clearly readable.
+- "LIVE RESIN" + "CONCENTRATE" in white/yellow text
+- "1G POP-VAC GLASS JAR" descriptor
+- Holographic strain badge
+- NY Universal Symbol at bottom
+
+RENDERING STYLE:
+- Clean white or transparent background
+- Soft, even studio lighting — no harsh shadows
+- Slight drop shadow beneath for depth
+- Product centered in frame with breathing room on all sides
+- Photorealistic product photography style
+- Image should work as a product card on a website (roughly square aspect ratio)
+
+CRITICAL: All three products must be:
+- Same visual style (lighting, shadow, background)
+- Same relative scale (the box is smaller than the bag — show this accurately)
+- Consistently framed with equal padding
+- Shot from the same camera angle
+- These will sit side by side on the website — visual consistency is everything
