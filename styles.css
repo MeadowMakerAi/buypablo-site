@@ -208,7 +208,11 @@ a {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 4px;
+  padding: 10px;
+  min-width: 44px;
+  min-height: 44px;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__menu span {
@@ -261,12 +265,9 @@ a {
 
 /* ── Scroll Animations ── */
 .fade-up {
-  transition: opacity 1s ease, transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.fade-up.will-animate {
   opacity: 0;
   transform: translateY(80px);
+  transition: opacity 1s ease, transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .fade-up.visible {
@@ -274,29 +275,23 @@ a {
   transform: translateY(0);
 }
 
-/* Scroll animations: elements start visible, JS adds .will-animate
-   to opt in, then .visible triggers the entrance. This ensures content
-   is always readable even without JS or before scroll. */
-.section__label,
-.section__heading,
-.section__body {
-  transition: opacity 0.8s ease, transform 1s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.section__label.will-animate {
+.section__label {
   opacity: 0;
   transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.section__heading.will-animate {
+.section__heading {
   opacity: 0;
   transform: translateY(60px) skewY(2deg);
+  transition: opacity 0.8s ease, transform 1s cubic-bezier(0.16, 1, 0.3, 1);
   transition-delay: 0.1s;
 }
 
-.section__body.will-animate {
+.section__body {
   opacity: 0;
   transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 1s cubic-bezier(0.16, 1, 0.3, 1);
   transition-delay: 0.25s;
 }
 
@@ -309,14 +304,10 @@ a {
 
 .section__img,
 .section__col--center img {
-  transition: opacity 1s ease, transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
-  transition-delay: 0.3s;
-}
-
-.section__img.will-animate,
-.section__col--center img.will-animate {
   opacity: 0;
   transform: scale(0.85) translateY(40px);
+  transition: opacity 1s ease, transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: 0.3s;
 }
 
 .section__img.visible,
@@ -534,9 +525,9 @@ a {
 
 .section__body {
   font-family: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   line-height: 1.7;
-  max-width: 580px;
+  max-width: 540px;
   opacity: 0.85;
   letter-spacing: 0.01em;
 }
@@ -563,9 +554,6 @@ a {
   border-radius: 2px;
   overflow: hidden;
   transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1), opacity 1s ease, box-shadow 0.4s ease;
-}
-
-.product-card.will-animate {
   opacity: 0;
   transform: translateY(80px) scale(0.92) rotate(1deg);
 }
@@ -620,7 +608,7 @@ a {
 
 .product-card__desc {
   font-family: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.65;
   color: #555;
   padding: 0.3rem 1.5rem;
@@ -723,23 +711,14 @@ a {
   pointer-events: none;
 }
 
-/* Invisible bridge — generous hit area prevents hover gap between
-   the nav link and the dropdown menu below it */
+/* Invisible bridge — generous hit area prevents hover gap */
 .nav__dropdown-menu::before {
   content: '';
   position: absolute;
-  top: -24px;
-  left: -20px;
-  right: -20px;
-  height: 28px;
-}
-
-/* Keep dropdown open briefly after mouse leaves (prevents flicker) */
-.nav__dropdown {
-  transition: none;
-}
-.nav__dropdown-menu {
-  transition: opacity 0.2s ease 0.05s, visibility 0.2s ease 0.05s;
+  top: -16px;
+  left: -12px;
+  right: -12px;
+  height: 20px;
 }
 
 .nav__dropdown:hover .nav__dropdown-menu,
@@ -788,15 +767,11 @@ a {
   justify-content: space-between;
   padding: 1.4rem 2.5rem;
   cursor: default;
+  opacity: 0;
+  transform: translateX(-100%);
   transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.6s ease;
   position: relative;
   overflow: hidden;
-}
-
-/* Animation: bands slide in from left when .visible is added */
-.flavor-band:not(.visible) {
-  opacity: 0;
-  transform: translateX(-100%);
 }
 
 .flavor-band.visible {
@@ -863,7 +838,7 @@ a {
 }
 
 .flavor-band__type {
-  font-size: clamp(0.6rem, 1vw, 0.8rem);
+  font-size: clamp(0.75rem, 1vw, 0.8rem);
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: 700;
@@ -895,7 +870,7 @@ a {
 
 .feature p {
   font-family: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.65;
 }
 
@@ -1073,7 +1048,7 @@ a {
 
 .footer__legal p {
   font-family: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   line-height: 1.8;
   letter-spacing: 0.05em;
   opacity: 0.35;
@@ -1081,6 +1056,14 @@ a {
 
 /* ── Responsive ── */
 @media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+
+  .nav__menu {
+    display: flex;
+  }
+
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1095,14 +1078,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  .nav__links {
-    display: none;
-  }
-
-  .nav__menu {
-    display: flex;
-  }
-
   .nav {
     padding: 1rem 1.5rem;
   }
@@ -1141,6 +1116,11 @@ a {
     margin-right: auto;
   }
 
+  .product-card__img .flavor-rotator {
+    aspect-ratio: 1 / 2;
+    max-height: 350px;
+  }
+
   .features-strip {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
@@ -1160,6 +1140,13 @@ a {
 
   .footer__legal {
     text-align: center;
+  }
+
+  .footer__links a {
+    padding: 0.5rem 0.25rem;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
   }
 }
 
@@ -1214,5 +1201,36 @@ a {
 
   .product-card__name {
     font-size: 1.3rem;
+  }
+
+  .product-card__features li {
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+  }
+
+  .footer__tagline {
+    font-size: 0.85rem;
+  }
+
+  .flavor-band__type {
+    font-size: 0.75rem;
+  }
+
+  .age-gate__buttons .btn {
+    min-height: 48px;
+    min-width: 100px;
+  }
+}
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .marquee__track {
+    animation: none;
   }
 }

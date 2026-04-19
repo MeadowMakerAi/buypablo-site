@@ -6,9 +6,9 @@
   <title>PABLO — Wholesale</title>
   <meta name="description" content="Carry Pablo at your dispensary. Wholesale inquiries for licensed New York retailers.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=20260416">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=20260419b">
   <meta name="theme-color" content="#0047BB">
-  <link rel="stylesheet" href="styles.css?v=20260416">
+  <link rel="stylesheet" href="styles.css?v=20260419b">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -64,7 +64,7 @@
     </div>
 
     <!-- HERO -->
-    <section class="hero" style="min-height:auto; padding-top:8rem; padding-bottom:4rem;">
+    <section class="hero" style="min-height:auto; padding-top:clamp(5rem, 10vw, 8rem); padding-bottom:clamp(2rem, 5vw, 4rem);">
       <div class="hero__content">
         <p class="hero__label">Wholesale</p>
         <h1 class="hero__headline">
@@ -73,7 +73,7 @@
         <p class="hero__sub">Premium cannabis for your shelves. Licensed NY dispensaries only.</p>
       </div>
       <div class="hero__image" style="display:flex; align-items:center; justify-content:center;">
-        <img src="assets/images/pablo-dispensary-interior.jpeg?v=20260416" alt="Pablo Authentic Dispensary" style="max-height:50vh; width:auto; max-width:100%; object-fit:cover; border-radius:8px;">
+        <img src="assets/images/pablo-dispensary-interior.jpeg?v=20260419b" alt="Pablo Authentic Dispensary" style="max-height:50vh; width:auto; max-width:100%; object-fit:cover; border-radius:8px;">
       </div>
     </section>
 
@@ -85,7 +85,7 @@
         Two product lines. Real brand identity. All-glass hardware your customers come back for.
         Competitive wholesale pricing with strong retailer margins.
       </p>
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; max-width:700px; margin:0 auto; text-align:left;">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:2rem; max-width:700px; margin:0 auto; text-align:left;">
         <div>
           <h3 style="font-size:1.6rem; letter-spacing:0.05em; text-transform:uppercase; color:var(--yellow); margin-bottom:0.5rem;">Live Resin</h3>
           <p style="font-family:'Space Grotesk',sans-serif; font-size:0.95rem; line-height:1.6; opacity:0.65;">
@@ -114,7 +114,7 @@
           <a href="mailto:wholesale@buypablo.com" class="btn btn--yellow" style="margin-top:1.5rem;">wholesale@buypablo.com</a>
         </div>
         <div class="section__col section__col--center">
-          <img src="assets/images/pablo_510_live_resin_sour_diesel_ny.jpeg?v=20260416" alt="Pablo Live Resin AIO" class="section__img" style="max-width:300px;">
+          <img src="assets/images/pablo_510_live_resin_sour_diesel_ny.jpeg?v=20260419b" alt="Pablo Live Resin AIO" class="section__img" style="max-width:300px;">
         </div>
       </div>
     </section>
@@ -157,10 +157,7 @@
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
     }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
-    document.querySelectorAll('.section__heading, .section__label, .section__body, .section__img, .section__col--center img, .fade-up').forEach(el => {
-      el.classList.add('will-animate');
-      observer.observe(el);
-    });
+    document.querySelectorAll('.section__heading, .section__label, .section__body, .section__img, .section__col--center img, .fade-up').forEach(el => observer.observe(el));
   </script>
 
 </body>
