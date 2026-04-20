@@ -1,0 +1,143 @@
+PABLO AIO FLAVORS LINE — NY OCM Compliant Packaging Prompts (6 Remaining Flavors)
+===================================================================================
+
+CONTEXT: These prompts generate the FLAVORS line (botanical-kissed) packaging, not Live Resin/Nectar. The FLAVORS line uses "FLAVORS" as the product line name and "FLAVOR FORWARD, HIGH POTENCY CANNABIS CONCENTRATE" as the tagline. The approved Pineapple Marker hero follows this spec — all 6 remaining flavors should match.
+
+COMMON SPEC (applies to all 6):
+- Background: Pablo Blue (#0047BB) — full bleed
+- Product image: Center-left, AIO vape hardware, yellow cartridge mouthpiece visible
+- Logo: "PABLO" — white, hand-painted graffiti style, ~2" wide, upper-center
+- Left spine: "FLAVORS" text, white, vertical orientation
+- Content block (upper center, stacked):
+  - "FLAVOR FORWARD, HIGH POTENCY CANNABIS CONCENTRATE" (white, 10pt, sans-serif)
+  - Dashed divider line (white)
+  - "FLAVORS" (yellow #FDDA00, bold, 18pt)
+  - Dashed divider line (white)
+- Flavor badge (center): rounded rectangle with flavor-specific accent color + fruit/icon illustration on left + flavor name + classification
+- Compliance strip (below badge, on accent color):
+  - THC warning triangle (yellow fill #FDDA00, black border, black leaf + "THC!")
+  - 21+ badge (red circle, white border, black "21+")
+  - NY State outline (black, white border, "NEW YORK STATE" text in white)
+- RECHARGEABLE capsule: Rectangle, Pablo Blue fill, thin white border, white text inside
+  - "RECHARGEABLE ALL-IN-ONE" (white, bold, 9pt)
+  - "NET WT. 1G (0.0353 OZ)" (white, 8pt)
+- Warning text directly on Pablo Blue (NO box): "THIS PRODUCT CONTAINS CANNABIS AND THC. KEEP OUT OF REACH OF CHILDREN AND PETS. FOR USE ONLY BY PERSONS 21 YEARS OF AGE AND OLDER." (white, 7pt, justified)
+- OCM license seal on lower-left spine
+- 300 DPI PNG, flat color, no gradients/shadows
+
+
+=====================================================================
+1) SUNDAE GRAPES — Indica Hybrid
+=====================================================================
+BASE IMAGE: PABLO AIO SUNDAE GRAPES.PNG
+ACCENT COLOR: #81288E (purple)
+
+FLAVOR BADGE:
+- Background: Sundae Grapes purple (#81288E)
+- Illustration: Purple grape cluster (left side of badge)
+- Text: "SUNDAE GRAPES" (white, bold, 14pt)
+- Subtext: "INDICA HYBRID" (white, 8pt)
+- Note: "SUNDAE" with "-AE" spelling, plural "GRAPES"
+
+COMPLIANCE STRIP BACKGROUND: Sundae Grapes purple (#81288E)
+
+
+=====================================================================
+2) TERP TAXI — Indica Hybrid
+=====================================================================
+BASE IMAGE: PABLO AIO TERP TAXI.PNG
+ACCENT COLOR: #FDAA00 (yellow/gold)
+
+FLAVOR BADGE:
+- Background: Terp Taxi yellow (#FDAA00) with black checker pattern accent
+- Illustration: Yellow taxi cab silhouette (left side of badge)
+- Text: "TERP TAXI" (BLACK, bold, 14pt — contrast required on yellow)
+- Subtext: "INDICA HYBRID" (black, 8pt)
+
+COMPLIANCE STRIP BACKGROUND: Terp Taxi yellow (#FDAA00)
+- NOTE: Use white-outlined regulatory badges to stand out on yellow
+
+
+=====================================================================
+3) MANGONADA — Indica Hybrid
+=====================================================================
+BASE IMAGE: PABLO AIO MANGONADA.PNG
+ACCENT COLOR: #FDB829 (amber/gold)
+
+FLAVOR BADGE:
+- Background: Mangonada amber (#FDB829)
+- Illustration: Mango slice (orange/yellow flesh with green skin edge, left side of badge)
+- Text: "MANGONADA" (BLACK, bold, 14pt — contrast required on amber)
+- Subtext: "INDICA HYBRID" (black, 8pt)
+
+COMPLIANCE STRIP BACKGROUND: Mangonada amber (#FDB829)
+
+
+=====================================================================
+4) MARMALADE — Sativa Hybrid
+=====================================================================
+BASE IMAGE: PABLO AIO MARMALADE.PNG
+ACCENT COLOR: #FCA311 (orange)
+
+FLAVOR BADGE:
+- Background: Marmalade orange (#FCA311)
+- Illustration: Orange citrus slice (showing pulp/segments, left side of badge)
+- Text: "MARMALADE" (white, bold, 14pt)
+- Subtext: "SATIVA HYBRID" (white, 8pt)
+
+COMPLIANCE STRIP BACKGROUND: Marmalade orange (#FCA311)
+
+
+=====================================================================
+5) PIE FACE — Sativa Hybrid
+=====================================================================
+BASE IMAGE: PABLO AIO PIE FACE.PNG
+ACCENT COLOR: #EE2737 (red — use CSS color, closer to the strawberry red on packaging)
+
+FLAVOR BADGE:
+- Background: Pie Face red (#EE2737)
+- Illustration: Red strawberry with green leaf top (left side of badge)
+- Text: "PIE FACE" (white, bold, 14pt)
+- Subtext: "SATIVA HYBRID" (white, 8pt)
+
+COMPLIANCE STRIP BACKGROUND: Pie Face red (#EE2737)
+
+
+=====================================================================
+6) WATERMELON GUSHER — Indica Hybrid
+=====================================================================
+BASE IMAGE: PABLO AIO WATERMELON GUSHER.PNG
+ACCENT COLOR: #00855A (green — use CSS color, matches watermelon rind/band)
+
+FLAVOR BADGE:
+- Background: Watermelon Gusher green (#00855A) OR red/pink if packaging shows watermelon flesh — match reference image
+- Illustration: Watermelon slice (red flesh, green rind, black seeds, left side of badge)
+- Text: "WATERMELON GUSHER" (white, bold, 13pt — slightly smaller to fit)
+- Subtext: "INDICA HYBRID" (white, 8pt)
+
+COMPLIANCE STRIP BACKGROUND: Match flavor badge background
+
+
+=====================================================================
+CRITICAL NAMING + CLASSIFICATION NOTES
+=====================================================================
+- SUNDAE GRAPES (plural, -AE spelling) — NOT "Sunday Grape"
+- All classifications verified against actual Live Resin/Nectar packaging references
+- Brand_config.py has outdated classifications — update source of truth after batch completes
+- Pineapple Marker (already done) = SATIVA HYBRID with pink #EE3680
+
+CONTRAST RULES:
+- Dark accents (Sundae Grapes purple, Marmalade orange, Pie Face red, Watermelon Gusher green): WHITE text
+- Light accents (Terp Taxi yellow, Mangonada amber): BLACK text
+- All regulatory badges (THC/21+/NY) stay OCM-spec colors regardless
+- Pablo Blue background + white warning text + blue RECHARGEABLE capsule = constant across all 7
+
+ILLUSTRATION STYLE (CRITICAL — MATCH EXISTING PACKAGING):
+- Semi-realistic stylized fruit/icon, matching the style of Pablo's existing Live Resin Nectar packaging
+- NOT cartoon. NOT childlike. Premium cannabis packaging aesthetic.
+- Think stylized product/editorial illustration: clean outlines, saturated color, subtle depth
+- Fruit should look appetizing and refined (think modern grocery/CPG packaging — "Olipop" or "Liquid Death" level)
+- Contained within the left portion of the flavor badge rectangle (~30% of badge width)
+- Must be recognizable at small label size
+- Do NOT default to flat Material Design icons or vector clipart
+- Reference: the existing flavor packaging photos provided show the exact style target

@@ -1,0 +1,61 @@
+PABLO AIO Pineapple Marker — NY OCM Compliant Packaging Render
+
+BASE IMAGE: PABLO AIO PINEAPPLE MARKER.PNG (product shot)
+
+TASK: Render this product image as a full NY-compliant AIO packaging design matching the dieline specs and OCM requirements.
+
+DESIGN SPEC:
+- Background: Pablo Blue (#0047BB) — full bleed
+- Product image: Center-left, maintaining original detail
+- Logo: "PABLO" — white, hand-painted style, ~2" wide, positioned upper-center
+- Left spine: "FLAVORS" text, white, vertical orientation
+
+CONTENT BLOCK (upper center):
+- "FLAVOR FORWARD, HIGH POTENCY CANNABIS CONCENTRATE" (white, sans-serif, 10pt)
+- Divider line (white, dashed)
+- "FLAVORS" (yellow #FDDA00, bold, 16pt)
+- Divider line (white, dashed)
+
+FLAVOR BADGE (center):
+- Background: Pineapple Marker pink (#EE3680)
+- Text: "PINEAPPLE MARKER" (white, bold, 14pt, centered)
+- Subtext: "SATIVA HYBRID" (white, 8pt)
+
+COMPLIANCE SECTION (bottom, background: Pineapple Marker pink #EE3680):
+- Three regulatory badges, horizontally centered:
+  1. THC warning triangle (yellow #FDDA00 background, black border, black leaf + "THC!" text)
+  2. 21+ badge (red circle with white border, black "21+" inside, 0.75" diameter)
+  3. NY State outline (black, white border, "NEW YORK STATE" text in white, 0.75" wide)
+- Spacing: 0.25" between badges
+
+PRODUCT DETAILS CAPSULE (below compliance badges):
+- Shape: Rectangle capsule with slightly rounded corners (~6px radius)
+- Fill: Pablo Blue (#0047BB)
+- Border: 1.5pt white stroke
+- Background around capsule: Pablo Blue (#0047BB) — NO white section
+- Inside capsule, two lines of white text, centered:
+  - "RECHARGEABLE ALL-IN-ONE" (white, bold, 9pt)
+  - "NET WT. 0.869g (0.50 OZ)" (white, 8pt)
+
+WARNING TEXT (directly on Pablo Blue background — NO box, NO capsule, NO border):
+- "THIS PRODUCT CONTAINS CANNABIS AND THC. KEEP OUT OF REACH OF CHILDREN AND PETS. FOR USE ONLY BY PERSONS 21 YEARS OF AGE AND OLDER."
+- Font: Arial, 7pt, white, justified, centered below the rectangle capsule
+- Sits directly on the Pablo Blue background with generous margin
+
+OCM LICENSE SEAL (left spine):
+- Circular seal, white border, "E" + "3" inside (OCM License #), 0.5" diameter
+- Position: Lower-left corner
+
+DIMENSIONS:
+- Label width: 48.5mm (1.91")
+- Bleed margins: 18mm (0.71")
+- Aspect ratio: 4:6 (vertical)
+
+STYLE:
+- All text crisp and readable at label size
+- Color accuracy critical (brand colors must match exact hex codes)
+- Icons rendered at OCM regulatory standard weights and proportions
+- No shadows or gradients — flat color design
+- Final output: 300 DPI, PNG format
+
+REFERENCE: Matches NY OCM §128.5 visual identity and warning requirements.

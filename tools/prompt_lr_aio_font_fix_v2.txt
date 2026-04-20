@@ -1,0 +1,12 @@
+Edit the packaging image to match the fonts shown in the reference image.
+
+IMAGE 1 (to edit): The AIO Live Resin box render
+IMAGE 2 (font reference): Shows the exact two fonts to use
+
+Replace ONLY the "fresh frozen" and "LIVE RESIN" text on the front face of the box:
+- "fresh frozen" → match the top font in the reference (white, clean geometric sans-serif, NOT italic)
+- "LIVE RESIN" → match the bottom font in the reference (yellow, ultra-condensed narrow letters)
+
+Remove all text from the left spine — leave the spine as clean blue with no text.
+
+Change NOTHING else. Same box, same angle, same badge, same compliance icons, same everything.

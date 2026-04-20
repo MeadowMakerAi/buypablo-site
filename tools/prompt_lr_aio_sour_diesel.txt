@@ -1,0 +1,41 @@
+PABLO LIVE RESIN AIO — SOUR DIESEL — NY OCM Compliant Packaging
+
+REFERENCE IMAGES ATTACHED:
+1. Flavors AIO box render → use as LAYOUT/FORMAT reference (box shape, angle, vape pen placement, compliance positioning)
+2. Sour Diesel 510 mylar render → use as BADGE STYLE reference (holographic silver strain badge)
+
+TASK: Produce a LIVE RESIN version of this AIO pop box. Same box format and angle as reference 1, but with Live Resin branding instead of Flavors.
+
+WHAT CHANGES FROM THE FLAVORS REFERENCE:
+- Left spine text: "FLAVORS" → "LIVE RESIN" (white, vertical)
+- Tagline: "FLAVOR FORWARD, HIGH POTENCY CANNABIS CONCENTRATE" → "FRESH FROZEN LIVE RESIN CONCENTRATE" (white, 10pt, sans-serif)
+- Yellow center text: "FLAVORS" → "LIVE RESIN" (yellow #FDDA00, bold, 18pt)
+- Flavor badge → Holographic silver strain badge (match the badge style from reference 2):
+  - Background: holographic/iridescent silver with subtle rainbow color shifts
+  - Light blue border/frame around the badge
+  - "SOUR DIESEL" in dark navy blue text, bold, stacked two lines
+  - "PABLO AUTHENTIC PRODUCT" subtitle in small dark text below strain name
+  - NO fruit illustration — strain name only
+- No accent color band — the box stays full Pablo Blue (#0047BB) with no colored stripe
+
+WHAT STAYS THE SAME:
+- Box format: rigid pop box, ~144mm × 48.5mm × 18mm, shown at same angle
+- Background: Pablo Blue (#0047BB) — full bleed
+- "PABLO" logo — white, hand-brushed graffiti script, upper area
+- AIO vape pen alongside the box (yellow mouthpiece visible)
+- Compliance strip below badge:
+  - THC warning triangle (yellow #FDDA00, black border, cannabis leaf, "THC!")
+  - 21+ badge (red circle, white border, "21+" in black)
+  - NY State outline (black fill, white border, "NEW YORK STATE")
+- "RECHARGEABLE ALL-IN-ONE" capsule (Pablo Blue fill, white border, white text)
+- "NET WT. 1G (0.0353 OZ)" below that
+- Warning text: "THIS PRODUCT CONTAINS CANNABIS AND THC. KEEP OUT OF REACH OF CHILDREN AND PETS. FOR USE ONLY BY PERSONS 21 YEARS OF AGE AND OLDER." (white, 7pt, on blue)
+- OCM license seal on spine
+
+HOLOGRAPHIC BADGE STYLE (from reference 2):
+- Silver metallic base with subtle rainbow/iridescent color shifts
+- Contained within a rounded rectangle with thin light blue border
+- The holographic effect should look like real holographic film — premium, not gaudy
+- Dark navy text on silver provides high contrast and legibility
+
+OUTPUT: 300 DPI PNG, photorealistic product render, clean white background, same angle/lighting as reference 1.
