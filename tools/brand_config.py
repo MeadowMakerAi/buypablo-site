@@ -65,14 +65,16 @@ PABLO_WHITE = "#FFFFFF"
 
 # --- Flavor Definitions ---
 # Canonical list. Each tool derives its own format from this.
+# Classifications reconciled to brand book (2025-09-26, page 16) as canonical source.
+# Five strains diverged from prior asset-pipeline values; corrected 2026-05-19.
 FLAVORS = [
     {"name": "Pineapple Marker", "color": "#EE3680", "classification": "SATIVA HYBRID"},
     {"name": "Sunday Grape",     "color": "#81288E", "classification": "INDICA HYBRID"},
-    {"name": "Terp Taxi",        "color": "#FDAA00", "classification": "SATIVA"},
-    {"name": "Watermelon Gusher","color": "#E80029", "classification": "INDICA"},
-    {"name": "Marmalade",        "color": "#FCA311", "classification": "HYBRID"},
-    {"name": "Mangonada",        "color": "#FDB829", "classification": "SATIVA HYBRID"},
-    {"name": "Pie Face",         "color": "#189849", "classification": "INDICA HYBRID"},
+    {"name": "Terp Taxi",        "color": "#FDAA00", "classification": "INDICA HYBRID"},
+    {"name": "Watermelon Gusher","color": "#E80029", "classification": "INDICA HYBRID"},
+    {"name": "Marmalade",        "color": "#FCA311", "classification": "SATIVA HYBRID"},
+    {"name": "Mangonada",        "color": "#FDB829", "classification": "INDICA HYBRID"},
+    {"name": "Pie Face",         "color": "#189849", "classification": "SATIVA HYBRID"},
 ]
 
 # Keyed lookup for prompt generator
